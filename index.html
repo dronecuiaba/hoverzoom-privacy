@@ -1,37 +1,51 @@
-# HoverZoom Privacy Policy
-
-Last updated: October 5, 2026
-
-This policy describes HoverZoom version 1.2.1, a Chrome extension that enlarges images on hover on websites chosen by the user.
-
-## Information used by the extension
-
-HoverZoom processes the current website's address to determine its domain and apply the user's settings. On authorized, enabled sites, it reads image elements, image addresses, relevant image links and CSS background images to display an enlarged preview. It processes pointer position and relevant page interactions, such as scrolling and the Escape key, to position or dismiss that preview. This processing takes place locally in the browser; these interactions are not recorded as an activity log.
-
-HoverZoom reads the browser interface language to select its packaged interface translation.
-
-## Local storage and retention
-
-HoverZoom stores configured domain names and their enabled state, preferred preview size and hover delay using Chrome's local extension storage. It does not use Chrome Sync for these settings. Settings remain until the extension's local data is cleared or the extension is uninstalled. Switching a domain off does not delete its saved preferences.
-
-The extension does not maintain a browsing-history timeline or save image files. Preview data is used temporarily in memory. Chrome may cache images as part of its normal operation.
-
-## Network requests and sharing
-
-HoverZoom has no developer-operated data collection endpoint and sends no browsing data, images, settings or interaction logs to the developer. It contains no advertising, analytics or tracking services and does not sell user data.
-
-Displaying a preview may cause the browser to request an image, including a larger version, from the image address supplied by the webpage. The website or image host may receive ordinary network information, such as the user's IP address and browser-managed request headers, referrer or cookies, subject to browser policies. These requests are used only to display the requested image and are subject to the image host's own practices. HoverZoom does not read authentication cookies or upload images to a separate service.
-
-## Permissions and user control
-
-HoverZoom starts disabled. When the user opens the extension on a site, it can request optional access to that site's domain and subdomains. Granting access does not itself enable zoom; the user controls the ON/OFF setting. Switching an enabled domain to OFF stops zoom and removes its optional host permission. Users can also manage site access or remove the extension in Chrome.
-
-The activeTab permission identifies the current site following a toolbar interaction. The storage permission saves local preferences. The scripting permission runs packaged preview code on authorized, enabled sites. Optional host permissions allow the feature to work on the websites selected by the user across page visits.
-
-## Limited use and executable code
-
-Information handled by HoverZoom is used only to provide its image preview feature and related settings. It is not used for advertising, profiling, creditworthiness or lending decisions. All executable extension code is included in its installation package; the extension does not download or execute remote code.
-
-## Changes
-
-This policy will be updated when the extension's data practices change. Its update date identifies the current policy.
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="HoverZoom privacy policy: local image processing, saved preferences, site permissions and network requests.">
+  <meta name="color-scheme" content="light">
+  <title>Privacy Policy | HoverZoom</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f5f7f6; color: #24332e; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.75; }
+    main { max-width: 820px; margin: 56px auto; padding: 48px 56px; background: #fff; border: 1px solid #dce5df; border-radius: 16px; }
+    header { padding-bottom: 28px; margin-bottom: 28px; border-bottom: 1px solid #dce5df; }
+    .brand { margin: 0 0 12px; color: #23664a; font-size: 15px; font-weight: 750; letter-spacing: .06em; }
+    h1 { margin: 0 0 12px; color: #172c22; font-size: clamp(30px, 6vw, 42px); line-height: 1.2; letter-spacing: -.03em; }
+    .updated { margin: 0; color: #58685f; font-size: 14px; }
+    h2 { margin: 32px 0 12px; color: #172c22; font-size: 21px; line-height: 1.4; }
+    p { margin: 0 0 18px; overflow-wrap: anywhere; }
+    footer { border-top: 1px solid #dce5df; margin-top: 36px; padding-top: 20px; color: #58685f; font-size: 13px; }
+    @media (max-width: 600px) { main { margin: 16px 12px; padding: 28px 22px; border-radius: 12px; } }
+    @media print { body { background: white; } main { max-width: none; margin: 0; padding: 0; border: 0; } h2 { break-after: avoid; } p { orphans: 3; widows: 3; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="brand">HoverZoom</p>
+      <h1>Privacy Policy</h1>
+      <p class="updated">Last updated: <time datetime="2026-10-05">October 5, 2026</time></p>
+    </header>
+    <p>This policy describes HoverZoom version 1.2.1, a Chrome extension that enlarges images on hover on websites chosen by the user.</p>
+    <h2>Information used by the extension</h2>
+    <p>HoverZoom processes the current website&#x27;s address to determine its domain and apply the user&#x27;s settings. On authorized, enabled sites, it reads image elements, image addresses, relevant image links and CSS background images to display an enlarged preview. It processes pointer position and relevant page interactions, such as scrolling and the Escape key, to position or dismiss that preview. This processing takes place locally in the browser; these interactions are not recorded as an activity log.</p>
+    <p>HoverZoom reads the browser interface language to select its packaged interface translation.</p>
+    <h2>Local storage and retention</h2>
+    <p>HoverZoom stores configured domain names and their enabled state, preferred preview size and hover delay using Chrome&#x27;s local extension storage. It does not use Chrome Sync for these settings. Settings remain until the extension&#x27;s local data is cleared or the extension is uninstalled. Switching a domain off does not delete its saved preferences.</p>
+    <p>The extension does not maintain a browsing-history timeline or save image files. Preview data is used temporarily in memory. Chrome may cache images as part of its normal operation.</p>
+    <h2>Network requests and sharing</h2>
+    <p>HoverZoom has no developer-operated data collection endpoint and sends no browsing data, images, settings or interaction logs to the developer. It contains no advertising, analytics or tracking services and does not sell user data.</p>
+    <p>Displaying a preview may cause the browser to request an image, including a larger version, from the image address supplied by the webpage. The website or image host may receive ordinary network information, such as the user&#x27;s IP address and browser-managed request headers, referrer or cookies, subject to browser policies. These requests are used only to display the requested image and are subject to the image host&#x27;s own practices. HoverZoom does not read authentication cookies or upload images to a separate service.</p>
+    <h2>Permissions and user control</h2>
+    <p>HoverZoom starts disabled. When the user opens the extension on a site, it can request optional access to that site&#x27;s domain and subdomains. Granting access does not itself enable zoom; the user controls the ON/OFF setting. Switching an enabled domain to OFF stops zoom and removes its optional host permission. Users can also manage site access or remove the extension in Chrome.</p>
+    <p>The activeTab permission identifies the current site following a toolbar interaction. The storage permission saves local preferences. The scripting permission runs packaged preview code on authorized, enabled sites. Optional host permissions allow the feature to work on the websites selected by the user across page visits.</p>
+    <h2>Limited use and executable code</h2>
+    <p>Information handled by HoverZoom is used only to provide its image preview feature and related settings. It is not used for advertising, profiling, creditworthiness or lending decisions. All executable extension code is included in its installation package; the extension does not download or execute remote code.</p>
+    <h2>Changes</h2>
+    <p>This policy will be updated when the extension&#x27;s data practices change. Its update date identifies the current policy.</p>
+    <footer>HoverZoom &middot; Privacy policy for extension version 1.2.1</footer>
+  </main>
+</body>
+</html>
